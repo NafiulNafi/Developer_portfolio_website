@@ -1,0 +1,164 @@
+
+
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* shared style */
+
+
+.secondary-bg{
+   
+    background: rgb(245, 227, 214);
+}
+
+.text-primary{
+    color:rgb(253, 110, 10);
+}
+.dark-2{
+    color: rgb(71, 71, 71);
+}
+.btn-primary{
+     border-radius: 5px;
+
+    background-color: rgb(253, 110, 10);
+    color:white;
+    font-weight: bold;
+    padding: 18px 35px;
+    font-size: 20px;
+    border: none;
+}
+
+.section-title{
+
+    font-size: 45px;
+    font-weight: bold;
+    color: black;
+
+}
+.section-description{
+    font-size: 18px;
+    color: black;
+}
+
+
+
+/* header */
+
+.header{
+    background-image: url(../images/developer.png),url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left,bottom right;
+}
+
+
+
+
+
+
+/* Nav styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 230px;
+}
+.nav-title{
+
+
+font-size: 45px;
+font-weight: 800;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin-right: 51px;
+    list-style: none;
+}
+nav ul a{
+     text-decoration: none; /*removes the underline */
+    font-size: 20px;
+}
+
+/* banner styles */
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 230px;
+}
+
+.banner-welcome{
+   
+
+font-size: 45px;
+font-weight: 600;
+/* line-height: 61px;
+letter-spacing: 0%;
+text-align: left; */
+
+}
+
+.banner-title{
+
+   
+
+font-size: 85px;
+font-weight: 700;
+line-height: 116px;
+letter-spacing: 0%;
+text-align: left;
+
+}
+
+.banner-discription{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.banner-profile-pic{
+    width: 584px;
+    height: 676px;
+ 
+}
+
+.banner-contant{
+    max-width: 580px;
+}
+
+
+/* main styles */
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+
+
+}
+
+/* about style */
+
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+
+.item-description{
+    font-weight: bold;
+}
